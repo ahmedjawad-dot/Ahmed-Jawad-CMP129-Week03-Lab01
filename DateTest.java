@@ -1,8 +1,16 @@
+/*
+ * Student Name:
+ * Course: CMP 129
+ * Week: 3
+ * Lab: 1
+ * Problem: 1
+ * Date: 9/23/2026
+ */
 public class DateTest {
  
     public static void main(String[] args)
     {
-        Date date = new Date(0,32,2026);
+        Date date = new Date(0,32,2026);        //object creation in main with initialized fields
         date.setDay(32);
         date.getDay();
         date.getMonth();
